@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "https://dannyfm80.github.io/pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [
+        "https://dannyfm80.github.io/pwa/favicon.ico",
+        "https://dannyfm80.github.io/pwa/index.html",
+        "https://dannyfm80.github.io/pwa/main.998ba614e38ecf8840c1.js",
+        "https://dannyfm80.github.io/pwa/polyfills.7037a817a5bb670ed2ca.js",
+        "https://dannyfm80.github.io/pwa/runtime.ec2944dd8b20ec099bf3.js",
+        "https://dannyfm80.github.io/pwa/styles.e8736a412dbd5802babd.css"
+      ],
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://dannyfm80.github.io/pwa/assets/css/animate.css",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-128x128.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-144x144.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-152x152.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-192x192.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-384x384.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-512x512.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-72x72.png",
+        "https://dannyfm80.github.io/pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://dannyfm80.github.io/pwa/assets/css/animate.css": "d0615f29fce34c802f84bddf79b02afab8012f13",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://dannyfm80.github.io/pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://dannyfm80.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://dannyfm80.github.io/pwa/index.html": "b02897307d0dd3841832b2d1cfd4024a730a0894",
+    "https://dannyfm80.github.io/pwa/main.998ba614e38ecf8840c1.js": "aca71bcc6dce7f23b468ed4ac6e98fa196676033",
+    "https://dannyfm80.github.io/pwa/polyfills.7037a817a5bb670ed2ca.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://dannyfm80.github.io/pwa/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://dannyfm80.github.io/pwa/styles.e8736a412dbd5802babd.css": "55185c8d1181be996052cfdd4181ea6bf60c7f72"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
